@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Ranchers&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&family=Ranchers&display=swap');
+
+body { color:#3391FF} 
+
+p, ul {font-family: 'Raleway', sans-serif;}
+
+h1{ font-family: 'Ranchers', cursive;
+	color: #3357FF;
+	font-size: 40px; }
+#slogan{ font-style: italic; }
+
+a{font-family: 'Raleway', sans-serif;}
+
+.end{ list-style-type: none;
+	  text-align: center;
+	  padding: 1em 0; }
+
+#two_column {
+	background-color: #FFB7CF;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+#left{
+	background-color: #E582A2;
+	border: 1px black solid;
+	padding: 20px;
+	float: left;
+	width: 30%;
+}
+
+#right{
+	background-color: #E55B88;
+	border: 1px black solid;
+	padding: 20px;
+	float: right;
+	width: 62%;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	clear: both;
+	height: 0;
+}
+
+footer {display: inline-block;}
