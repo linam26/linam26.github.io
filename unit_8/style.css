@@ -1,7 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Ranchers&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&family=Ranchers&display=swap');
 
-body { color:#3391FF} 
+body { 
+	background: url (images/365fits.png);
+	height: 100%;
+	color:#3391FF;} 
 
 p, ul {font-family: 'Raleway', sans-serif;}
 
@@ -46,4 +49,7 @@ a{font-family: 'Raleway', sans-serif;}
 	height: 0;
 }
 
-footer {display: inline-block;}
+footer {display: inline-block;
+	float: none%; }
+
+@ media only screen and (max-width: 850px)
