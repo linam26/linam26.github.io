@@ -1,55 +1,82 @@
 @import url('https://fonts.googleapis.com/css2?family=Ranchers&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&family=Ranchers&display=swap');
 
-body { 
-	background: url (images/365fits.png);
-	height: 100%;
-	color:#3391FF;} 
+.hero-image{ 
+	background: url(images/365fits.png);
+	min-height: 100vh;
+	color:#3357FF;
+	background-color: #F8F8F8;
+	background-position: center;
+	background-repeat: no-repeat;
+} 
 
-p, ul {font-family: 'Raleway', sans-serif;}
+p, ul {
+	font-family: 'Raleway', sans-serif;
+}
 
-h1{ font-family: 'Ranchers', cursive;
+h1, #slogan { 
+	font-family: 'Ranchers', cursive;
 	color: #3357FF;
-	font-size: 40px; }
-#slogan{ font-style: italic; }
+	font-size: 40px; 
+	display: inline-block;
+}
 
-a{font-family: 'Raleway', sans-serif;}
+#slogan {
+	font-size: 14px;
+	font-style: italic;
+}
 
-.end{ list-style-type: none;
-	  text-align: center;
-	  padding: 1em 0; }
+a{
+	font-family: 'Raleway', sans-serif;
+}
 
-#two_column {
-	background-color: #FFB7CF;
+.end { 
+	list-style-type: none;
+	text-align: center;
+	padding: 1em 0; 
+}
+
+#two-column {
+	background-color: #a4a1a1;
 	border: 1px black solid;
 	padding: 20px;
 }
 
-#left{
-	background-color: #E582A2;
+#mission {
+	background-color: #c3c1c1;
 	border: 1px black solid;
 	padding: 20px;
 	float: left;
 	width: 30%;
 }
 
-#right{
-	background-color: #E55B88;
-	border: 1px black solid;
-	padding: 20px;
-	float: right;
-	width: 62%;
+.button {
+	-webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    padding: 20px 30px;
+    background-color: #c3c1c1;
+    border: 1px black solid;
+	width: 40%;
+	float:right; 
+	margin-bottom: 10px;
+
 }
 
+footer, nav {
+	display: inline-block;
+	padding: 20px;
+	font-family: 'Raleway', sans-serif;
+
+ }
+
 .clearfix:after {
-	visibility: hidden;
 	display: block;
-	font-size: 0;
+	content:"";
 	clear: both;
 	height: 0;
 }
 
-footer {display: inline-block;
-	float: none%; }
-
 @ media only screen and (max-width: 850px)
+
+
